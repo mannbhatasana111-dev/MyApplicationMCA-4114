@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplicationmca"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="35" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+
+    <permission
+        android:name="com.example.myapplicationmca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.myapplicationmca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/marwadi_university"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/marwadi_university"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.MyApplicationMCA" >
+        <receiver
+            android:name="com.example.myapplicationmca.AlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.myapplicationmca.UNIT1_pro5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT5_pro54"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT5_pro53"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT5_pro52"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT5_pro51"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT4_pro50"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT4_pro49"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT4_pro48"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT4_pro47"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT4_pro46"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT4_pro45"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT4_pro44"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro43"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro42"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro41"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro40"
+            android:exported="false" />
+
+        <service android:name="com.example.myapplicationmca.MyService" />
+
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro39"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro38"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro37"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro36"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro35"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro34"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro33"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro32"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro31"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro30"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_pro29"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro28"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro27"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro26"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro25"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro24"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro23"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro22"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro21"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro20"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro19"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro18"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro17"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro16"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro15"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro14"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro13"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro12"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro11"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro9"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro8"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro7_1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro7"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro6_1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro6"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_pro10"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.E_pro4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT1_pro4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT1_pro3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.E_pro3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.E_pro2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.E_pro1_2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.E_pro1_1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.Extra_Program"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT5_LIST_PAGE"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT4_LIST_PAGE"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT3_LIST_PAGE"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT2_LIST_PAGE"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.UNIT1_LIST_PAGE"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplicationmca.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.myapplicationmca.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,599 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplicationmca"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-feature
+11-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.camera"
+12-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="false" />
+13-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:7:9-33
+14    <uses-feature
+14-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:8:5-10:36
+15        android:name="android.hardware.telephony"
+15-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:9:9-50
+16        android:required="false" />
+16-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:10:9-33
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:12:5-67
+18-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+19-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:13:5-79
+19-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.SEND_SMS" />
+20-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:14:5-67
+20-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:14:22-64
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:15:5-65
+21-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:15:22-62
+22    <uses-permission android:name="android.permission.READ_CONTACTS" />
+22-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:16:5-72
+22-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:16:22-69
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:17:5-80
+23-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:17:22-77
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:18:5-79
+24-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:18:22-76
+25    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+25-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:19:5-81
+25-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:19:22-78
+26    <uses-permission
+26-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:20:5-22:38
+27        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+27-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:21:9-65
+28        android:maxSdkVersion="28" />
+28-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:22:9-35
+29    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+29-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:13:5-79
+29-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:13:22-76
+30    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+30-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:24:5-74
+30-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:24:22-71
+31
+32    <permission
+32-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+33        android:name="com.example.myapplicationmca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.example.myapplicationmca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+37
+38    <application
+38-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:27:5-246:19
+39        android:allowBackup="true"
+39-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:28:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+41        android:dataExtractionRules="@xml/data_extraction_rules"
+41-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:29:9-65
+42        android:debuggable="true"
+43        android:extractNativeLibs="false"
+44        android:fullBackupContent="@xml/backup_rules"
+44-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:30:9-54
+45        android:icon="@drawable/marwadi_university"
+45-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:31:9-52
+46        android:label="@string/app_name"
+46-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:32:9-41
+47        android:roundIcon="@drawable/marwadi_university"
+47-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:33:9-57
+48        android:supportsRtl="true"
+48-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:34:9-35
+49        android:testOnly="true"
+50        android:theme="@style/Theme.MyApplicationMCA" >
+50-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:35:9-54
+51        <receiver
+51-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:37:9-99
+52            android:name="com.example.myapplicationmca.AlarmReceiver"
+52-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:37:19-48
+53            android:enabled="true"
+53-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:37:49-71
+54            android:exported="false" />
+54-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:37:72-96
+55
+56        <activity
+56-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:38:9-40:40
+57            android:name="com.example.myapplicationmca.UNIT1_pro5"
+57-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:39:13-39
+58            android:exported="false" />
+58-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:40:13-37
+59        <activity
+59-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:41:9-43:40
+60            android:name="com.example.myapplicationmca.UNIT5_pro54"
+60-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:42:13-40
+61            android:exported="false" />
+61-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:43:13-37
+62        <activity
+62-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:44:9-46:40
+63            android:name="com.example.myapplicationmca.UNIT5_pro53"
+63-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:45:13-40
+64            android:exported="false" />
+64-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:46:13-37
+65        <activity
+65-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:47:9-49:40
+66            android:name="com.example.myapplicationmca.UNIT5_pro52"
+66-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:48:13-40
+67            android:exported="false" />
+67-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:49:13-37
+68        <activity
+68-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:50:9-52:40
+69            android:name="com.example.myapplicationmca.UNIT5_pro51"
+69-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:51:13-40
+70            android:exported="false" />
+70-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:52:13-37
+71        <activity
+71-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:53:9-55:40
+72            android:name="com.example.myapplicationmca.UNIT4_pro50"
+72-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:54:13-40
+73            android:exported="false" />
+73-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:55:13-37
+74        <activity
+74-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:56:9-58:40
+75            android:name="com.example.myapplicationmca.UNIT4_pro49"
+75-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:57:13-40
+76            android:exported="false" />
+76-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:58:13-37
+77        <activity
+77-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:59:9-61:40
+78            android:name="com.example.myapplicationmca.UNIT4_pro48"
+78-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:60:13-40
+79            android:exported="false" />
+79-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:61:13-37
+80        <activity
+80-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:62:9-64:40
+81            android:name="com.example.myapplicationmca.UNIT4_pro47"
+81-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:63:13-40
+82            android:exported="false" />
+82-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:64:13-37
+83        <activity
+83-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:65:9-67:40
+84            android:name="com.example.myapplicationmca.UNIT4_pro46"
+84-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:66:13-40
+85            android:exported="false" />
+85-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:67:13-37
+86        <activity
+86-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:68:9-70:40
+87            android:name="com.example.myapplicationmca.UNIT4_pro45"
+87-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:69:13-40
+88            android:exported="false" />
+88-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:70:13-37
+89        <activity
+89-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:71:9-73:40
+90            android:name="com.example.myapplicationmca.UNIT4_pro44"
+90-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:72:13-40
+91            android:exported="false" />
+91-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:73:13-37
+92        <activity
+92-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:74:9-76:40
+93            android:name="com.example.myapplicationmca.UNIT3_pro43"
+93-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:75:13-40
+94            android:exported="false" />
+94-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:76:13-37
+95        <activity
+95-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:77:9-79:40
+96            android:name="com.example.myapplicationmca.UNIT3_pro42"
+96-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:78:13-40
+97            android:exported="false" />
+97-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:79:13-37
+98        <activity
+98-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:80:9-82:40
+99            android:name="com.example.myapplicationmca.UNIT3_pro41"
+99-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:81:13-40
+100            android:exported="false" />
+100-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:82:13-37
+101        <activity
+101-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:83:9-85:40
+102            android:name="com.example.myapplicationmca.UNIT3_pro40"
+102-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:84:13-40
+103            android:exported="false" />
+103-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:85:13-37
+104
+105        <service android:name="com.example.myapplicationmca.MyService" />
+105-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:88:9-46
+105-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:88:18-43
+106
+107        <activity
+107-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:90:9-92:40
+108            android:name="com.example.myapplicationmca.UNIT3_pro39"
+108-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:91:13-40
+109            android:exported="false" />
+109-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:92:13-37
+110        <activity
+110-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:93:9-95:40
+111            android:name="com.example.myapplicationmca.UNIT3_pro38"
+111-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:94:13-40
+112            android:exported="false" />
+112-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:95:13-37
+113        <activity
+113-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:96:9-98:40
+114            android:name="com.example.myapplicationmca.UNIT3_pro37"
+114-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:97:13-40
+115            android:exported="false" />
+115-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:98:13-37
+116        <activity
+116-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:99:9-101:40
+117            android:name="com.example.myapplicationmca.UNIT3_pro36"
+117-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:100:13-40
+118            android:exported="false" />
+118-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:101:13-37
+119        <activity
+119-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:102:9-104:40
+120            android:name="com.example.myapplicationmca.UNIT3_pro35"
+120-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:103:13-40
+121            android:exported="false" />
+121-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:104:13-37
+122        <activity
+122-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:105:9-107:40
+123            android:name="com.example.myapplicationmca.UNIT3_pro34"
+123-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:106:13-40
+124            android:exported="false" />
+124-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:107:13-37
+125        <activity
+125-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:108:9-110:40
+126            android:name="com.example.myapplicationmca.UNIT3_pro33"
+126-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:109:13-40
+127            android:exported="false" />
+127-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:110:13-37
+128        <activity
+128-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:111:9-113:40
+129            android:name="com.example.myapplicationmca.UNIT3_pro32"
+129-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:112:13-40
+130            android:exported="false" />
+130-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:113:13-37
+131        <activity
+131-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:114:9-116:40
+132            android:name="com.example.myapplicationmca.UNIT3_pro31"
+132-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:115:13-40
+133            android:exported="false" />
+133-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:116:13-37
+134        <activity
+134-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:117:9-119:40
+135            android:name="com.example.myapplicationmca.UNIT3_pro30"
+135-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:118:13-40
+136            android:exported="false" />
+136-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:119:13-37
+137        <activity
+137-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:120:9-122:40
+138            android:name="com.example.myapplicationmca.UNIT3_pro29"
+138-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:121:13-40
+139            android:exported="false" />
+139-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:122:13-37
+140        <activity
+140-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:123:9-125:40
+141            android:name="com.example.myapplicationmca.UNIT2_pro28"
+141-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:124:13-40
+142            android:exported="false" />
+142-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:125:13-37
+143        <activity
+143-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:126:9-128:40
+144            android:name="com.example.myapplicationmca.UNIT2_pro27"
+144-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:127:13-40
+145            android:exported="false" />
+145-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:128:13-37
+146        <activity
+146-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:129:9-131:40
+147            android:name="com.example.myapplicationmca.UNIT2_pro26"
+147-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:130:13-40
+148            android:exported="false" />
+148-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:131:13-37
+149        <activity
+149-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:132:9-134:40
+150            android:name="com.example.myapplicationmca.UNIT2_pro25"
+150-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:133:13-40
+151            android:exported="false" />
+151-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:134:13-37
+152        <activity
+152-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:135:9-137:40
+153            android:name="com.example.myapplicationmca.UNIT2_pro24"
+153-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:136:13-40
+154            android:exported="false" />
+154-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:137:13-37
+155        <activity
+155-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:138:9-140:40
+156            android:name="com.example.myapplicationmca.UNIT2_pro23"
+156-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:139:13-40
+157            android:exported="false" />
+157-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:140:13-37
+158        <activity
+158-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:141:9-143:40
+159            android:name="com.example.myapplicationmca.UNIT2_pro22"
+159-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:142:13-40
+160            android:exported="false" />
+160-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:143:13-37
+161        <activity
+161-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:144:9-146:40
+162            android:name="com.example.myapplicationmca.UNIT2_pro21"
+162-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:145:13-40
+163            android:exported="false" />
+163-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:146:13-37
+164        <activity
+164-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:147:9-149:40
+165            android:name="com.example.myapplicationmca.UNIT2_pro20"
+165-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:148:13-40
+166            android:exported="false" />
+166-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:149:13-37
+167        <activity
+167-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:150:9-152:40
+168            android:name="com.example.myapplicationmca.UNIT2_pro19"
+168-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:151:13-40
+169            android:exported="false" />
+169-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:152:13-37
+170        <activity
+170-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:153:9-155:40
+171            android:name="com.example.myapplicationmca.UNIT2_pro18"
+171-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:154:13-40
+172            android:exported="false" />
+172-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:155:13-37
+173        <activity
+173-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:156:9-158:40
+174            android:name="com.example.myapplicationmca.UNIT2_pro17"
+174-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:157:13-40
+175            android:exported="false" />
+175-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:158:13-37
+176        <activity
+176-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:159:9-161:40
+177            android:name="com.example.myapplicationmca.UNIT2_pro16"
+177-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:160:13-40
+178            android:exported="false" />
+178-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:161:13-37
+179        <activity
+179-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:162:9-164:40
+180            android:name="com.example.myapplicationmca.UNIT2_pro15"
+180-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:163:13-40
+181            android:exported="false" />
+181-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:164:13-37
+182        <activity
+182-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:165:9-167:40
+183            android:name="com.example.myapplicationmca.UNIT2_pro14"
+183-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:166:13-40
+184            android:exported="false" />
+184-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:167:13-37
+185        <activity
+185-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:168:9-170:40
+186            android:name="com.example.myapplicationmca.UNIT2_pro13"
+186-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:169:13-40
+187            android:exported="false" />
+187-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:170:13-37
+188        <activity
+188-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:171:9-173:40
+189            android:name="com.example.myapplicationmca.UNIT2_pro12"
+189-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:172:13-40
+190            android:exported="false" />
+190-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:173:13-37
+191        <activity
+191-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:174:9-176:40
+192            android:name="com.example.myapplicationmca.UNIT2_pro11"
+192-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:175:13-40
+193            android:exported="false" />
+193-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:176:13-37
+194        <activity
+194-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:177:9-179:40
+195            android:name="com.example.myapplicationmca.UNIT2_pro9"
+195-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:178:13-39
+196            android:exported="false" />
+196-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:179:13-37
+197        <activity
+197-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:180:9-182:40
+198            android:name="com.example.myapplicationmca.UNIT2_pro8"
+198-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:181:13-39
+199            android:exported="false" />
+199-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:182:13-37
+200        <activity
+200-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:183:9-185:40
+201            android:name="com.example.myapplicationmca.UNIT2_pro7_1"
+201-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:184:13-41
+202            android:exported="false" />
+202-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:185:13-37
+203        <activity
+203-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:186:9-188:40
+204            android:name="com.example.myapplicationmca.UNIT2_pro7"
+204-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:187:13-39
+205            android:exported="false" />
+205-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:188:13-37
+206        <activity
+206-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:189:9-191:40
+207            android:name="com.example.myapplicationmca.UNIT2_pro6_1"
+207-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:190:13-41
+208            android:exported="false" />
+208-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:191:13-37
+209        <activity
+209-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:192:9-194:40
+210            android:name="com.example.myapplicationmca.UNIT2_pro6"
+210-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:193:13-39
+211            android:exported="false" />
+211-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:194:13-37
+212        <activity
+212-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:195:9-197:40
+213            android:name="com.example.myapplicationmca.UNIT2_pro10"
+213-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:196:13-40
+214            android:exported="false" />
+214-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:197:13-37
+215        <activity
+215-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:198:9-200:40
+216            android:name="com.example.myapplicationmca.E_pro4"
+216-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:199:13-35
+217            android:exported="false" />
+217-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:200:13-37
+218        <activity
+218-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:201:9-203:40
+219            android:name="com.example.myapplicationmca.UNIT1_pro4"
+219-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:202:13-39
+220            android:exported="false" />
+220-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:203:13-37
+221        <activity
+221-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:204:9-206:40
+222            android:name="com.example.myapplicationmca.UNIT1_pro3"
+222-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:205:13-39
+223            android:exported="false" />
+223-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:206:13-37
+224        <activity
+224-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:207:9-209:40
+225            android:name="com.example.myapplicationmca.E_pro3"
+225-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:208:13-35
+226            android:exported="false" />
+226-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:209:13-37
+227        <activity
+227-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:210:9-212:40
+228            android:name="com.example.myapplicationmca.E_pro2"
+228-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:211:13-35
+229            android:exported="false" />
+229-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:212:13-37
+230        <activity
+230-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:213:9-215:40
+231            android:name="com.example.myapplicationmca.E_pro1_2"
+231-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:214:13-37
+232            android:exported="false" />
+232-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:215:13-37
+233        <activity
+233-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:216:9-218:40
+234            android:name="com.example.myapplicationmca.E_pro1_1"
+234-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:217:13-37
+235            android:exported="false" />
+235-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:218:13-37
+236        <activity
+236-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:219:9-221:40
+237            android:name="com.example.myapplicationmca.Extra_Program"
+237-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:220:13-42
+238            android:exported="false" />
+238-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:221:13-37
+239        <activity
+239-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:222:9-224:40
+240            android:name="com.example.myapplicationmca.UNIT5_LIST_PAGE"
+240-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:223:13-44
+241            android:exported="false" />
+241-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:224:13-37
+242        <activity
+242-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:225:9-227:40
+243            android:name="com.example.myapplicationmca.UNIT4_LIST_PAGE"
+243-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:226:13-44
+244            android:exported="false" />
+244-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:227:13-37
+245        <activity
+245-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:228:9-230:40
+246            android:name="com.example.myapplicationmca.UNIT3_LIST_PAGE"
+246-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:229:13-44
+247            android:exported="false" />
+247-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:230:13-37
+248        <activity
+248-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:231:9-233:40
+249            android:name="com.example.myapplicationmca.UNIT2_LIST_PAGE"
+249-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:232:13-44
+250            android:exported="false" />
+250-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:233:13-37
+251        <activity
+251-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:234:9-236:40
+252            android:name="com.example.myapplicationmca.UNIT1_LIST_PAGE"
+252-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:235:13-44
+253            android:exported="false" />
+253-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:236:13-37
+254        <activity
+254-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:237:9-245:20
+255            android:name="com.example.myapplicationmca.MainActivity"
+255-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:238:13-41
+256            android:exported="true" >
+256-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:239:13-36
+257            <intent-filter>
+257-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:240:13-244:29
+258                <action android:name="android.intent.action.MAIN" />
+258-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:241:17-69
+258-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:241:25-66
+259
+260                <category android:name="android.intent.category.LAUNCHER" />
+260-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:243:17-77
+260-->D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:243:27-74
+261            </intent-filter>
+262        </activity>
+263        <activity
+263-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e7562156efb5ec9e33e8d980529e1f11\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+264            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+264-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e7562156efb5ec9e33e8d980529e1f11\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+265            android:exported="false"
+265-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e7562156efb5ec9e33e8d980529e1f11\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+266            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+266-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e7562156efb5ec9e33e8d980529e1f11\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+267
+268        <meta-data
+268-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0783179509c02981b0ccb2340c1edb1d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+269            android:name="com.google.android.gms.version"
+269-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0783179509c02981b0ccb2340c1edb1d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+270            android:value="@integer/google_play_services_version" />
+270-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0783179509c02981b0ccb2340c1edb1d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+271
+272        <provider
+272-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+273            android:name="androidx.startup.InitializationProvider"
+273-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+274            android:authorities="com.example.myapplicationmca.androidx-startup"
+274-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+275            android:exported="false" >
+275-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+276            <meta-data
+276-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+277                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+277-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+278                android:value="androidx.startup" />
+278-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+279            <meta-data
+279-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\00c32c391c018de8f1729e5cf446ee20\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+280                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+280-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\00c32c391c018de8f1729e5cf446ee20\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+281                android:value="androidx.startup" />
+281-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\00c32c391c018de8f1729e5cf446ee20\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+282            <meta-data
+282-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+283                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+283-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+284                android:value="androidx.startup" />
+284-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+285        </provider>
+286
+287        <receiver
+287-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+288            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+288-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+289            android:directBootAware="false"
+289-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+290            android:enabled="true"
+290-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+291            android:exported="true"
+291-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+292            android:permission="android.permission.DUMP" >
+292-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+293            <intent-filter>
+293-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+294                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+294-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+294-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+295            </intent-filter>
+296            <intent-filter>
+296-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+297                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+297-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+297-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+298            </intent-filter>
+299            <intent-filter>
+299-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+300                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+300-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+300-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+301            </intent-filter>
+302            <intent-filter>
+302-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+303                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+303-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+303-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+304            </intent-filter>
+305        </receiver>
+306    </application>
+307
+308</manifest>

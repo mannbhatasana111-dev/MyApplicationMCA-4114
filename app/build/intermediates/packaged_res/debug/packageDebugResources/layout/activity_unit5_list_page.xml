@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FCFA"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Unit 5"
+            android:textColor="#191C1B"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:letterSpacing="0.03"
+            android:text="Advanced Android Components"
+            android:textColor="#006B5E"
+            android:textSize="13sp"
+            android:fontFamily="sans-serif-medium"
+            android:textAllCaps="true" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btnPro51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#EEF2FF"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#C7D2FE">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#C7D2FE" android:gravity="center" android:text="51" android:textColor="#4338CA" android:textSize="18sp" android:fontFamily="sans-serif-black" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="Location Service" android:textColor="#312E81" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btnPro52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#F0FDFA"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#99F6E4">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#99F6E4" android:gravity="center" android:text="52" android:textColor="#0D9488" android:textSize="18sp" android:fontFamily="sans-serif-black" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="Sensors" android:textColor="#134E48" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btnPro53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#FFFBEB"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#FDE68A">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#FDE68A" android:gravity="center" android:text="53" android:textColor="#B45309" android:textSize="18sp" android:fontFamily="sans-serif-black" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="JSON Parsing" android:textColor="#78350F" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btnPro54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:cardBackgroundColor="#FFF1F2"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#FECDD3">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#FECDD3" android:gravity="center" android:text="54" android:textColor="#E11D48" android:textSize="18sp" android:fontFamily="sans-serif-black" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="Doctor Database" android:textColor="#881337" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FCFA"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Unit 2"
+            android:textColor="#191C1B"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.03"
+            android:text="User Interface Components &amp; Layouts"
+            android:textAllCaps="true"
+            android:textColor="#006B5E"
+            android:textSize="13sp" />
+
+        <!-- 6. Login Authentication -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#EEF2FF"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#C7D2FE"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#C7D2FE" android:fontFamily="sans-serif-black" android:gravity="center" android:text="6" android:textColor="#4338CA" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="Login Authentication" android:textColor="#312E81" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 7. User Verification -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#F0FDFA"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#99F6E4"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#99F6E4" android:fontFamily="sans-serif-black" android:gravity="center" android:text="7" android:textColor="#0D9488" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="User Verification App" android:textColor="#134E48" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 8. Call Number App -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#FFFBEB"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#FDE68A"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#FDE68A" android:fontFamily="sans-serif-black" android:gravity="center" android:text="8" android:textColor="#B45309" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="Call Number App" android:textColor="#78350F" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 9. Country Flag Fragment -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#FFF1F2"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#FECDD3"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#FECDD3" android:fontFamily="sans-serif-black" android:gravity="center" android:text="9" android:textColor="#E11D48" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="Country Flag Fragment" android:textColor="#881337" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 10. Simple Calculator -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#F5F3FF"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#DDD6FE"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#DDD6FE" android:fontFamily="sans-serif-black" android:gravity="center" android:text="10" android:textColor="#7C3AED" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="Simple Calculator" android:textColor="#4C1D95" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 11. ToggleButton -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#EEF2FF"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#C7D2FE"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#C7D2FE" android:fontFamily="sans-serif-black" android:gravity="center" android:text="11" android:textColor="#4338CA" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="ToggleButton" android:textColor="#312E81" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 12. ImageButton -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#F0FDFA"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#99F6E4"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#99F6E4" android:fontFamily="sans-serif-black" android:gravity="center" android:text="12" android:textColor="#0D9488" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="ImageButton" android:textColor="#134E48" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 13. ListView -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#FFFBEB"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#FDE68A"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#FDE68A" android:fontFamily="sans-serif-black" android:gravity="center" android:text="13" android:textColor="#B45309" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="ListView" android:textColor="#78350F" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 14. Spinner -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#FFF1F2"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#FECDD3"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#FECDD3" android:fontFamily="sans-serif-black" android:gravity="center" android:text="14" android:textColor="#E11D48" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="Spinner" android:textColor="#881337" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 15. CheckBox -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#F5F3FF"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#DDD6FE"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#DDD6FE" android:fontFamily="sans-serif-black" android:gravity="center" android:text="15" android:textColor="#7C3AED" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="CheckBox" android:textColor="#4C1D95" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 16. RadioButton -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#EEF2FF"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#C7D2FE"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#C7D2FE" android:fontFamily="sans-serif-black" android:gravity="center" android:text="16" android:textColor="#4338CA" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="RadioButton" android:textColor="#312E81" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 17. RadioGroup -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#F0FDFA"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#99F6E4"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#99F6E4" android:fontFamily="sans-serif-black" android:gravity="center" android:text="17" android:textColor="#0D9488" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="RadioGroup" android:textColor="#134E48" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 18. ImageView -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#FFFBEB"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#FDE68A"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#FDE68A" android:fontFamily="sans-serif-black" android:gravity="center" android:text="18" android:textColor="#B45309" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="ImageView" android:textColor="#78350F" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 19. Basic UI Components -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#FFF1F2"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#FECDD3"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#FECDD3" android:fontFamily="sans-serif-black" android:gravity="center" android:text="19" android:textColor="#E11D48" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="Basic UI Components" android:textColor="#881337" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 20. RatingBar -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#F5F3FF"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#DDD6FE"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#DDD6FE" android:fontFamily="sans-serif-black" android:gravity="center" android:text="20" android:textColor="#7C3AED" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="RatingBar" android:textColor="#4C1D95" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 21. AutoCompleteTextView -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#EEF2FF"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#C7D2FE"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#C7D2FE" android:fontFamily="sans-serif-black" android:gravity="center" android:text="21" android:textColor="#4338CA" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="AutoCompleteTextView" android:textColor="#312E81" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 22. MultiAutoCompleteTextView -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#F0FDFA"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#99F6E4"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#99F6E4" android:fontFamily="sans-serif-black" android:gravity="center" android:text="22" android:textColor="#0D9488" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="MultiAutoCompleteTextView" android:textColor="#134E48" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 23. DatePicker -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#FFFBEB"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#FDE68A"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#FDE68A" android:fontFamily="sans-serif-black" android:gravity="center" android:text="23" android:textColor="#B45309" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="DatePicker" android:textColor="#78350F" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 24. TimePicker -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#FFF1F2"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#FECDD3"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#FECDD3" android:fontFamily="sans-serif-black" android:gravity="center" android:text="24" android:textColor="#E11D48" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="TimePicker" android:textColor="#881337" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 25. ConstraintLayout Expert -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#F5F3FF"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#DDD6FE"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#DDD6FE" android:fontFamily="sans-serif-black" android:gravity="center" android:text="25" android:textColor="#7C3AED" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="ConstraintLayout Expert" android:textColor="#4C1D95" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 26. Motion Animations -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#EEF2FF"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#C7D2FE"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#C7D2FE" android:fontFamily="sans-serif-black" android:gravity="center" android:text="26" android:textColor="#4338CA" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="Motion Animations" android:textColor="#312E81" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 27. Custom Toolbars -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#F0FDFA"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#99F6E4"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#99F6E4" android:fontFamily="sans-serif-black" android:gravity="center" android:text="27" android:textColor="#0D9488" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="Custom Toolbars" android:textColor="#134E48" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 28. Dark Mode Switcher -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btn_pro28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#FFFBEB"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="#FDE68A"
+            app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+                <TextView android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/white_circle_alpha" android:backgroundTint="#FDE68A" android:fontFamily="sans-serif-black" android:gravity="center" android:text="28" android:textColor="#B45309" android:textSize="18sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:fontFamily="sans-serif-medium" android:text="Dark Mode Switcher" android:textColor="#78350F" android:textSize="17sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>

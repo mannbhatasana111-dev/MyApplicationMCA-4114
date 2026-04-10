@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="16dp"
+    android:background="#F5F7FA">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:id="@+id/imgTarget"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/marwadi_logo3" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Animation Effect"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#333"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFade"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Fade In/Out (Alpha)"
+                app:cornerRadius="12dp"
+                android:layout_margin="5dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRotate"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Rotate"
+                app:cornerRadius="12dp"
+                android:layout_margin="5dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnZoom"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Zoom (Scale)"
+                app:cornerRadius="12dp"
+                android:layout_margin="5dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnMove"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Move (Translate)"
+                app:cornerRadius="12dp"
+                android:layout_margin="5dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

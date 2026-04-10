@@ -1,0 +1,784 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:2:1-248:12
+INJECTED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:2:1-248:12
+INJECTED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:2:1-248:12
+INJECTED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:2:1-248:12
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\c73a2f893d7c724763d9053f36b24997\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\a3e94ee39f6de9af422639155491152a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\496d70e11654b4854ab2d012795230dd\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\ad94d2bfc265372bafd2dbd3aace5a5a\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\fe4631832cd7beec35cc46a6d1c57d80\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\9fdbc4c6c166a59ad85eec3e22650892\transformed\play-services-location-21.3.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e7562156efb5ec9e33e8d980529e1f11\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\73a705896f4ab7f140f1d89513d1c4a7\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0783179509c02981b0ccb2340c1edb1d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\5bdfec485ae24d4eb281ffae41321058\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\98b9f274730361ff4d94932c2e943ec5\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\b9a00efe490e249a67bd0649aefe49f4\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\7440215e9febd3e1cb5a2d2fd6f3f482\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\aa3c6351f05879a360dbbb2c75a66d4a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\8866645d3d27a8a399ecfe5bb5436661\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\f6d17195baa149a43b52dfadf454531c\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0d3fff0ba31a42a763fdba3236621451\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e3f04978d923ed48c51e0db2df6ce56a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\ddc5f702f32038afef49da8cb3e251a5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\4acf29cedff2d54d902bae48f749c0c0\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0fea4b30e55de9438658289c72f892bb\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1d9be7f4d50b473593cd7279075fc30b\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\00c32c391c018de8f1729e5cf446ee20\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\d7a1eeb5ee685395d97e084b1535e257\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\919527e15fb4b2c5aac70dbf29ce65e3\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\3601033b3e4333aef41eaeb67917ca01\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\846e6becdd792899d3604bc25e625ccf\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e9b73add93eb328a6f6ebcab15d6bf00\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\5d21f7d2c342fe86ab87f9be26084147\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\8585aa1a2ddebcfe5901a2e1f9ed5ba6\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\04d0605280eff60564072f36ada3e206\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\01c3f4d446aabc8c7d922b48049806ee\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\757507817771ddf34979db6676bea215\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e48820829b5058e88e9a6aaa3b4328c2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\dca6eb407fb342af5b43ac34894950a4\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\763d50b35d8f81d3813d568bd626658a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\988fb1069f33a8a537f641f0b8fba665\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\14f57868b613b5e02bd863042de1e9f5\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e9a59c8c74512c1d4082e0b03a0090db\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\4e1ee9439c8f991238bc26d2483052c1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\a4ccd1d81f6bd448701ff90e91d10d58\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\dbef244100b31363225eb226f9e65191\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:5:5-7:36
+	android:required
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:7:9-33
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:6:9-47
+uses-feature#android.hardware.telephony
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:8:5-10:36
+	android:required
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:10:9-33
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:9:9-50
+uses-permission#android.permission.INTERNET
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.CAMERA
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:15:22-62
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:16:5-72
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:16:22-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:20:5-22:38
+	android:maxSdkVersion
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:22:9-35
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:21:9-65
+uses-permission#android.permission.USE_EXACT_ALARM
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:24:5-74
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:24:22-71
+application
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:27:5-246:19
+INJECTED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:27:5-246:19
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\c73a2f893d7c724763d9053f36b24997\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\c73a2f893d7c724763d9053f36b24997\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\a3e94ee39f6de9af422639155491152a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\a3e94ee39f6de9af422639155491152a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\9fdbc4c6c166a59ad85eec3e22650892\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\9fdbc4c6c166a59ad85eec3e22650892\transformed\play-services-location-21.3.0\AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e7562156efb5ec9e33e8d980529e1f11\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e7562156efb5ec9e33e8d980529e1f11\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\73a705896f4ab7f140f1d89513d1c4a7\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\73a705896f4ab7f140f1d89513d1c4a7\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0783179509c02981b0ccb2340c1edb1d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0783179509c02981b0ccb2340c1edb1d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\00c32c391c018de8f1729e5cf446ee20\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\00c32c391c018de8f1729e5cf446ee20\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e48820829b5058e88e9a6aaa3b4328c2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e48820829b5058e88e9a6aaa3b4328c2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\763d50b35d8f81d3813d568bd626658a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\763d50b35d8f81d3813d568bd626658a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:34:9-35
+	android:label
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:32:9-41
+	android:fullBackupContent
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:30:9-54
+	android:roundIcon
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:33:9-57
+	tools:targetApi
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:36:9-29
+	android:icon
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:31:9-52
+	android:allowBackup
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:28:9-35
+	android:theme
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:35:9-54
+	android:dataExtractionRules
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:29:9-65
+receiver#com.example.myapplicationmca.AlarmReceiver
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:37:9-99
+	android:enabled
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:37:49-71
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:37:72-96
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:37:19-48
+activity#com.example.myapplicationmca.UNIT1_pro5
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:38:9-40:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:39:13-39
+activity#com.example.myapplicationmca.UNIT5_pro54
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:41:9-43:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:42:13-40
+activity#com.example.myapplicationmca.UNIT5_pro53
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:44:9-46:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:45:13-40
+activity#com.example.myapplicationmca.UNIT5_pro52
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:47:9-49:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:48:13-40
+activity#com.example.myapplicationmca.UNIT5_pro51
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:50:9-52:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:51:13-40
+activity#com.example.myapplicationmca.UNIT4_pro50
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:53:9-55:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:54:13-40
+activity#com.example.myapplicationmca.UNIT4_pro49
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:56:9-58:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:57:13-40
+activity#com.example.myapplicationmca.UNIT4_pro48
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:59:9-61:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:60:13-40
+activity#com.example.myapplicationmca.UNIT4_pro47
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:62:9-64:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:63:13-40
+activity#com.example.myapplicationmca.UNIT4_pro46
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:65:9-67:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:66:13-40
+activity#com.example.myapplicationmca.UNIT4_pro45
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:68:9-70:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:70:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:69:13-40
+activity#com.example.myapplicationmca.UNIT4_pro44
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:71:9-73:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:73:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:72:13-40
+activity#com.example.myapplicationmca.UNIT3_pro43
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:74:9-76:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:75:13-40
+activity#com.example.myapplicationmca.UNIT3_pro42
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:77:9-79:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:78:13-40
+activity#com.example.myapplicationmca.UNIT3_pro41
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:80:9-82:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:82:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:81:13-40
+activity#com.example.myapplicationmca.UNIT3_pro40
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:83:9-85:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:84:13-40
+service#com.example.myapplicationmca.MyService
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:88:9-46
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:88:18-43
+activity#com.example.myapplicationmca.UNIT3_pro39
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:90:9-92:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:92:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:91:13-40
+activity#com.example.myapplicationmca.UNIT3_pro38
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:93:9-95:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:95:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:94:13-40
+activity#com.example.myapplicationmca.UNIT3_pro37
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:96:9-98:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:98:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:97:13-40
+activity#com.example.myapplicationmca.UNIT3_pro36
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:99:9-101:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:101:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:100:13-40
+activity#com.example.myapplicationmca.UNIT3_pro35
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:102:9-104:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:104:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:103:13-40
+activity#com.example.myapplicationmca.UNIT3_pro34
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:105:9-107:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:107:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:106:13-40
+activity#com.example.myapplicationmca.UNIT3_pro33
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:108:9-110:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:110:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:109:13-40
+activity#com.example.myapplicationmca.UNIT3_pro32
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:111:9-113:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:113:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:112:13-40
+activity#com.example.myapplicationmca.UNIT3_pro31
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:114:9-116:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:116:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:115:13-40
+activity#com.example.myapplicationmca.UNIT3_pro30
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:117:9-119:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:119:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:118:13-40
+activity#com.example.myapplicationmca.UNIT3_pro29
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:120:9-122:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:122:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:121:13-40
+activity#com.example.myapplicationmca.UNIT2_pro28
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:123:9-125:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:125:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:124:13-40
+activity#com.example.myapplicationmca.UNIT2_pro27
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:126:9-128:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:128:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:127:13-40
+activity#com.example.myapplicationmca.UNIT2_pro26
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:129:9-131:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:131:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:130:13-40
+activity#com.example.myapplicationmca.UNIT2_pro25
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:132:9-134:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:134:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:133:13-40
+activity#com.example.myapplicationmca.UNIT2_pro24
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:135:9-137:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:137:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:136:13-40
+activity#com.example.myapplicationmca.UNIT2_pro23
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:138:9-140:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:140:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:139:13-40
+activity#com.example.myapplicationmca.UNIT2_pro22
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:141:9-143:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:143:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:142:13-40
+activity#com.example.myapplicationmca.UNIT2_pro21
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:144:9-146:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:146:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:145:13-40
+activity#com.example.myapplicationmca.UNIT2_pro20
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:147:9-149:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:149:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:148:13-40
+activity#com.example.myapplicationmca.UNIT2_pro19
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:150:9-152:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:152:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:151:13-40
+activity#com.example.myapplicationmca.UNIT2_pro18
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:153:9-155:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:155:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:154:13-40
+activity#com.example.myapplicationmca.UNIT2_pro17
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:156:9-158:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:158:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:157:13-40
+activity#com.example.myapplicationmca.UNIT2_pro16
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:159:9-161:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:161:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:160:13-40
+activity#com.example.myapplicationmca.UNIT2_pro15
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:162:9-164:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:164:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:163:13-40
+activity#com.example.myapplicationmca.UNIT2_pro14
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:165:9-167:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:167:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:166:13-40
+activity#com.example.myapplicationmca.UNIT2_pro13
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:168:9-170:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:170:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:169:13-40
+activity#com.example.myapplicationmca.UNIT2_pro12
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:171:9-173:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:173:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:172:13-40
+activity#com.example.myapplicationmca.UNIT2_pro11
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:174:9-176:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:176:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:175:13-40
+activity#com.example.myapplicationmca.UNIT2_pro9
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:177:9-179:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:179:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:178:13-39
+activity#com.example.myapplicationmca.UNIT2_pro8
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:180:9-182:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:182:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:181:13-39
+activity#com.example.myapplicationmca.UNIT2_pro7_1
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:183:9-185:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:185:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:184:13-41
+activity#com.example.myapplicationmca.UNIT2_pro7
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:186:9-188:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:188:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:187:13-39
+activity#com.example.myapplicationmca.UNIT2_pro6_1
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:189:9-191:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:191:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:190:13-41
+activity#com.example.myapplicationmca.UNIT2_pro6
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:192:9-194:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:194:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:193:13-39
+activity#com.example.myapplicationmca.UNIT2_pro10
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:195:9-197:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:197:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:196:13-40
+activity#com.example.myapplicationmca.E_pro4
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:198:9-200:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:200:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:199:13-35
+activity#com.example.myapplicationmca.UNIT1_pro4
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:201:9-203:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:203:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:202:13-39
+activity#com.example.myapplicationmca.UNIT1_pro3
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:204:9-206:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:206:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:205:13-39
+activity#com.example.myapplicationmca.E_pro3
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:207:9-209:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:209:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:208:13-35
+activity#com.example.myapplicationmca.E_pro2
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:210:9-212:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:212:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:211:13-35
+activity#com.example.myapplicationmca.E_pro1_2
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:213:9-215:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:215:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:214:13-37
+activity#com.example.myapplicationmca.E_pro1_1
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:216:9-218:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:218:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:217:13-37
+activity#com.example.myapplicationmca.Extra_Program
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:219:9-221:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:221:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:220:13-42
+activity#com.example.myapplicationmca.UNIT5_LIST_PAGE
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:222:9-224:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:224:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:223:13-44
+activity#com.example.myapplicationmca.UNIT4_LIST_PAGE
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:225:9-227:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:227:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:226:13-44
+activity#com.example.myapplicationmca.UNIT3_LIST_PAGE
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:228:9-230:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:230:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:229:13-44
+activity#com.example.myapplicationmca.UNIT2_LIST_PAGE
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:231:9-233:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:233:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:232:13-44
+activity#com.example.myapplicationmca.UNIT1_LIST_PAGE
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:234:9-236:40
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:236:13-37
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:235:13-44
+activity#com.example.myapplicationmca.MainActivity
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:237:9-245:20
+	android:exported
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:239:13-36
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:238:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:240:13-244:29
+action#android.intent.action.MAIN
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:241:17-69
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:241:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:243:17-77
+	android:name
+		ADDED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml:243:27-74
+uses-sdk
+INJECTED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml
+INJECTED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\c73a2f893d7c724763d9053f36b24997\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\c73a2f893d7c724763d9053f36b24997\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\a3e94ee39f6de9af422639155491152a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\a3e94ee39f6de9af422639155491152a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\496d70e11654b4854ab2d012795230dd\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\496d70e11654b4854ab2d012795230dd\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\ad94d2bfc265372bafd2dbd3aace5a5a\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\ad94d2bfc265372bafd2dbd3aace5a5a\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\fe4631832cd7beec35cc46a6d1c57d80\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\fe4631832cd7beec35cc46a6d1c57d80\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\9fdbc4c6c166a59ad85eec3e22650892\transformed\play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\9fdbc4c6c166a59ad85eec3e22650892\transformed\play-services-location-21.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e7562156efb5ec9e33e8d980529e1f11\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e7562156efb5ec9e33e8d980529e1f11\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\73a705896f4ab7f140f1d89513d1c4a7\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\73a705896f4ab7f140f1d89513d1c4a7\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0783179509c02981b0ccb2340c1edb1d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0783179509c02981b0ccb2340c1edb1d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\5bdfec485ae24d4eb281ffae41321058\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\5bdfec485ae24d4eb281ffae41321058\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\98b9f274730361ff4d94932c2e943ec5\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\98b9f274730361ff4d94932c2e943ec5\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\b9a00efe490e249a67bd0649aefe49f4\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\b9a00efe490e249a67bd0649aefe49f4\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\7440215e9febd3e1cb5a2d2fd6f3f482\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\7440215e9febd3e1cb5a2d2fd6f3f482\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\aa3c6351f05879a360dbbb2c75a66d4a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\aa3c6351f05879a360dbbb2c75a66d4a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\8866645d3d27a8a399ecfe5bb5436661\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\8866645d3d27a8a399ecfe5bb5436661\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\f6d17195baa149a43b52dfadf454531c\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\f6d17195baa149a43b52dfadf454531c\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0d3fff0ba31a42a763fdba3236621451\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0d3fff0ba31a42a763fdba3236621451\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e3f04978d923ed48c51e0db2df6ce56a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e3f04978d923ed48c51e0db2df6ce56a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\ddc5f702f32038afef49da8cb3e251a5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\ddc5f702f32038afef49da8cb3e251a5\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\4acf29cedff2d54d902bae48f749c0c0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\4acf29cedff2d54d902bae48f749c0c0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0fea4b30e55de9438658289c72f892bb\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0fea4b30e55de9438658289c72f892bb\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1d9be7f4d50b473593cd7279075fc30b\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1d9be7f4d50b473593cd7279075fc30b\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\00c32c391c018de8f1729e5cf446ee20\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\00c32c391c018de8f1729e5cf446ee20\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\d7a1eeb5ee685395d97e084b1535e257\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\d7a1eeb5ee685395d97e084b1535e257\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\919527e15fb4b2c5aac70dbf29ce65e3\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\919527e15fb4b2c5aac70dbf29ce65e3\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\3601033b3e4333aef41eaeb67917ca01\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\3601033b3e4333aef41eaeb67917ca01\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\846e6becdd792899d3604bc25e625ccf\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\846e6becdd792899d3604bc25e625ccf\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e9b73add93eb328a6f6ebcab15d6bf00\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e9b73add93eb328a6f6ebcab15d6bf00\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\5d21f7d2c342fe86ab87f9be26084147\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\5d21f7d2c342fe86ab87f9be26084147\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\8585aa1a2ddebcfe5901a2e1f9ed5ba6\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\8585aa1a2ddebcfe5901a2e1f9ed5ba6\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\04d0605280eff60564072f36ada3e206\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\04d0605280eff60564072f36ada3e206\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\01c3f4d446aabc8c7d922b48049806ee\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\01c3f4d446aabc8c7d922b48049806ee\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\757507817771ddf34979db6676bea215\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\757507817771ddf34979db6676bea215\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e48820829b5058e88e9a6aaa3b4328c2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e48820829b5058e88e9a6aaa3b4328c2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\dca6eb407fb342af5b43ac34894950a4\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\dca6eb407fb342af5b43ac34894950a4\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\763d50b35d8f81d3813d568bd626658a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\763d50b35d8f81d3813d568bd626658a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\988fb1069f33a8a537f641f0b8fba665\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\988fb1069f33a8a537f641f0b8fba665\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\14f57868b613b5e02bd863042de1e9f5\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\14f57868b613b5e02bd863042de1e9f5\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e9a59c8c74512c1d4082e0b03a0090db\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e9a59c8c74512c1d4082e0b03a0090db\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\4e1ee9439c8f991238bc26d2483052c1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\4e1ee9439c8f991238bc26d2483052c1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\a4ccd1d81f6bd448701ff90e91d10d58\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\a4ccd1d81f6bd448701ff90e91d10d58\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\dbef244100b31363225eb226f9e65191\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\dbef244100b31363225eb226f9e65191\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\MCA\MyApplicationMCA-main\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e7562156efb5ec9e33e8d980529e1f11\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e7562156efb5ec9e33e8d980529e1f11\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e7562156efb5ec9e33e8d980529e1f11\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e7562156efb5ec9e33e8d980529e1f11\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0783179509c02981b0ccb2340c1edb1d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0783179509c02981b0ccb2340c1edb1d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\0783179509c02981b0ccb2340c1edb1d\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\00c32c391c018de8f1729e5cf446ee20\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\00c32c391c018de8f1729e5cf446ee20\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e48820829b5058e88e9a6aaa3b4328c2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\e48820829b5058e88e9a6aaa3b4328c2\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\bf422a5b7556cbe4d384d62d1c5d2dd9\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\00c32c391c018de8f1729e5cf446ee20\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\00c32c391c018de8f1729e5cf446ee20\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\00c32c391c018de8f1729e5cf446ee20\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.example.myapplicationmca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.myapplicationmca.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\95dc154e1347e58f5fec11fca063934f\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\8.11.1\transforms\1548464618ed56acea097376fda1ea8c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
